@@ -1,11 +1,10 @@
 #include <stdio.h>
-
-/*
- *  * main - this is the main put function
- *   * Return: 0
- *    */
-int main(void)
+/**
+ * main -this is the main put function
+ * Return: 0
+ */
+int main(voin)
 {
-		puts("\"Programming is like building a multilingual puzzle");
-				return (0);
+	put("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
