@@ -1,23 +1,20 @@
 #include <stdio.h>
 
-
 /**
- * main - program that prints the alphabet in lowercase and upper case
+ * main - program that prints numbers in base 10 starting from 0
  * Return: Always 0.
  */
 
 int main(void)
 {
-	char letter;
+    int number;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+    for (number = 0; number < 10; number++)
+    {
+        putchar(number + '0');
+    }
 
-	{
-	if (letter != 'e' && letter != 'q')
-	putchar(letter);
-	}
+    putchar('\n');
 
-	putchar('\n');
-
-	return (0);
+    return (0);
 }
