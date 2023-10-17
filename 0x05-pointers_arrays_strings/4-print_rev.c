@@ -1,19 +1,22 @@
 #include "main.h"
+
 /**
- * print_new - the function name
- * @s: function parameter
+ * print_new - Print a string in reverse.
+ * @s: The string to reverse and print.
  */
 
 void print_new(char *s)
-
 {
 int i;
 int count = 0;
 
-for (i = 0; s[i] != '\n';
-count++
+while (s[count] != '\0')
+count++;
 
 for (i = count - 1; i >= 0; i--)
-_putchar (s[i]);
-_putchar ('\n');
+{
+_putchar(s[i]);
+}
+
+_putchar('\n');
 }
