@@ -1,14 +1,18 @@
 #include "main.h"
+
 /**
- * _puts - function name
- * @str: function paameter
+ * _puts - Print a string followed by a new line to stdout.
+ * @str: The string to print.
  */
 
 void _puts(char *str)
 {
 int i;
 
-for (i - 0; str[] != '\0' i++)
-_putchar (str[i]);
-_puchar('\n');
+for (i = 0; str[i] != '\0'; i++)
+{
+_putchar(str[i]);
+}
+
+_putchar('\n');
 }
