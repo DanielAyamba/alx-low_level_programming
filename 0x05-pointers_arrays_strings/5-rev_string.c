@@ -11,7 +11,7 @@ int count = 0;
 
 for (i = 0; s[i] != '\0'; i++)
 
-count++
+count++;
 for (i = 0; i < count / 2; i++)
 {
 char j;
