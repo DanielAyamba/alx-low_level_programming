@@ -1,11 +1,11 @@
 #include "main.h"
-
 /**
   *_strcat - main function of the prototype
   * @src: Concatenation parameter
   * @dest: Concatenation parameter
   * Return: dest
   */
+
 
 char *_strcat(char *dest, char *src)
 {
@@ -15,8 +15,9 @@ int i;
 
 for (i = 0; dest[i] != '\0'; i++)
 destlen++
-for (i = o; srclen[i] != '\0'; i++)
+for (i = o; src[i] != '\0'; i++)
 srclen++;
+
 for (i = 0; i <= srclen; i++)
 {
 dest[destlen + i] = src[i];
