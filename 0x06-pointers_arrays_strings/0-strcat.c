@@ -2,32 +2,25 @@
 
 /**
   *_strcat - main function of the prototype
-  *
   * @src: Concatenation parameter
-  *
   * @dest: Concatenation parameter
-  *
   * Return: dest
   */
 
 char *_strcat(char *dest, char *src)
 {
-int k, r;
+int destlen = 0;
+int srclen = 0;
+int i;
 
-k = 0;
-r = 0;
-
-while (dest[k] != '\0')
+for (i = 0; dest[i] != '\0'; i++)
+destlen++
+for (i = o; srclen[i] != '\0'; i++)
+srclen++;
+for (i = 0; i <= srclen; i++)
 {
-k++;
-}
+dest[destlen + i] = src[i];
 
-while (src[r] != '\0')
-{
-dest[k] = src[r];
-k++;
-r++;
 }
-dest[k] = '\0';
 return (dest);
 }
