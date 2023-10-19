@@ -1,28 +1,22 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * _strcat - function name
- * @dest: parameter one
- * @src:  parameter two
- * Return: dest.
+ * main - check the code
+ *
+ * Return: Always 0.
  */
-
-char *_strcat(char *dest, char *src)
+int main(void)
 {
-int destlen = 0;
-int srclen = 0;
-int i;
+	char s1[98] = "Hello ";
+	char s2[] = "World!\n";
+	char *ptr;
 
-for (i = 0; dest[i] != '\0'; i++)
-destlen++;
-
-for (i = 0; src[i] != '\0'; i++)
-srclen++;
-
-for (i = 0; i <= srclen; i++)
-{
-dest[destlen + i] = src[i];
-}
-
-return (dest);
-
+	printf("%s\n", s1);
+	printf("%s", s2);
+	ptr = _strcat(s1, s2);
+	printf("%s", s1);
+	printf("%s", s2);
+	printf("%s", ptr);
+return (0);
 }
