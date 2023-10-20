@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * _strncat  - function name
- * @dest: function parameter one
- * @src: Function parameter two
- * @n: function parameter three
- * Return: dest
+ * _strcat - function name
+ * @dest: function Parameter 1
+ * @src: fucnction parameter 2
+ * @n: function parameter 3
  */
 
 char *_strncat(char *dest, char *src, int n)
