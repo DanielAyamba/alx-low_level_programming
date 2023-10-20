@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * _strcat - function name
- * @dest: function Parameter 1
- * @src: fucnction parameter 2
- * @n: function parameter 3
+ * _strncat - function concatenates two strings
+ * @dest: function parameter one
+ * @src: function parameter two
+ * @n: function parameter three
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
