@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strncat - function concatenates two strings
  * @dest: function parameter one
@@ -19,5 +20,4 @@ src++;
 }
 dest[len + i] = '\0';
 return (dest);
-
 }
